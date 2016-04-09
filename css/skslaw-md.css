@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  header {
+    height: 500px; }
+
+  .divider {
+    height: 400px; }
+
+  .services section.body .container h2 {
+    font-size: 2.6em; } }
+
+/*# sourceMappingURL=skslaw-md.css.map */
