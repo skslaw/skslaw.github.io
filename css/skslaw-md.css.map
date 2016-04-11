@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,0BAA2B;EACzB,MAAO;IACL,MAAM,EAAE,KAAK;;EAEf,QAAS;IACP,MAAM,EAAE,KAAK;;EAEf,gBAAiB;IACf,mBAAmB,EAAE,MAAM;AAE/B,0CAA0C",
+"mappings": "AAAA,yBAA0B;EACxB,MAAO;IACL,MAAM,EAAE,KAAK;;EAEf,QAAS;IACP,MAAM,EAAE,KAAK;;EAEf,gBAAiB;IACf,mBAAmB,EAAE,MAAM;;EAK1B,oCAAG;IACF,SAAS,EAAE,IAAI;AAQrB,0CAA0C",
 "sources": ["../scss/skslaw-md.scss"],
 "names": [],
 "file": "skslaw-md.css"

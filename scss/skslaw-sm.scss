@@ -1,6 +1,10 @@
 @import "_variables";
 @import "_mixins";
 
+body {
+	font-size: $font-size-sm;
+}
+
 .top-bar-dark {
 	background-color: $skincolor;
 	li {
@@ -122,10 +126,9 @@ header {
 }
 
 .team {
-	font-size: $team-font-size;
 	.services-me {
 		li {
-			font-size: $team-font-size;
+			font-size: $font-size-sm;
 		}
 		a {
 			text-decoration: underline;

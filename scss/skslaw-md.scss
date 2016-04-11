@@ -1,11 +1,32 @@
-@media (min-width: 1200px) {
+@media (min-width: 767px) {
+  body {
+  	font-size: $font-size-md;
+  }
   header {
     height: 700px; }
 
   .divider {
     height: 600px; }
 
-  .james .me-intro {
-    background-position: 0% 35%; } }
+
+  .team {
+  	.services-me {
+  		li {
+  			font-size: $font-size-md;
+  		}
+    }
+  }
+
+  .services {
+  	section.body {
+  		.container {
+  			h2 {
+  				font-size: 30px;
+  			}
+  		}
+  	}
+  }
+
+}
 
 /*# sourceMappingURL=skslaw-md.scss.map */

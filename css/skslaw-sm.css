@@ -1,3 +1,6 @@
+body {
+  font-size: 16px; }
+
 .top-bar-dark {
   background-color: #123f6d; }
   .top-bar-dark li {
@@ -96,12 +99,10 @@ header {
       color: #123f6d;
       text-decoration: underline; }
 
-.team {
-  font-size: 18px; }
-  .team .services-me li {
-    font-size: 18px; }
-  .team .services-me a {
-    text-decoration: underline; }
+.team .services-me li {
+  font-size: 16px; }
+.team .services-me a {
+  text-decoration: underline; }
 
 .me-intro p.lead {
   font-size: 30px; }

@@ -5284,6 +5284,9 @@ body.coming-soon-full {
   margin-bottom: 25px;
   margin-top: 20px; }
 
+body {
+  font-size: 16px; }
+
 .top-bar-dark {
   background-color: #123f6d; }
   .top-bar-dark li {
@@ -5382,12 +5385,10 @@ header {
       color: #123f6d;
       text-decoration: underline; }
 
-.team {
-  font-size: 18px; }
-  .team .services-me li {
-    font-size: 18px; }
-  .team .services-me a {
-    text-decoration: underline; }
+.team .services-me li {
+  font-size: 16px; }
+.team .services-me a {
+  text-decoration: underline; }
 
 .me-intro p.lead {
   font-size: 30px; }
@@ -5416,15 +5417,21 @@ header {
       color: #123f6d;
       font-size: 20px; }
 
-@media (min-width: 1200px) {
+@media (min-width: 767px) {
+  body {
+    font-size: 18px; }
+
   header {
     height: 700px; }
 
   .divider {
     height: 600px; }
 
-  .james .me-intro {
-    background-position: 0% 35%; } }
+  .team .services-me li {
+    font-size: 18px; }
+
+  .services section.body .container h2 {
+    font-size: 30px; } }
 /*# sourceMappingURL=skslaw-md.scss.map */
 @media (min-width: 1200px) {
   header {
@@ -5435,6 +5442,9 @@ header {
 
   .james .me-intro {
     background-position: 0% 35%; } }
+body {
+  font-size: 16px; }
+
 .top-bar-dark {
   background-color: #123f6d; }
   .top-bar-dark li {
@@ -5533,12 +5543,10 @@ header {
       color: #123f6d;
       text-decoration: underline; }
 
-.team {
-  font-size: 18px; }
-  .team .services-me li {
-    font-size: 18px; }
-  .team .services-me a {
-    text-decoration: underline; }
+.team .services-me li {
+  font-size: 16px; }
+.team .services-me a {
+  text-decoration: underline; }
 
 .me-intro p.lead {
   font-size: 30px; }
@@ -5567,15 +5575,21 @@ header {
       color: #123f6d;
       font-size: 20px; }
 
-@media (min-width: 1200px) {
+@media (min-width: 767px) {
+  body {
+    font-size: 18px; }
+
   header {
     height: 700px; }
 
   .divider {
     height: 600px; }
 
-  .james .me-intro {
-    background-position: 0% 35%; } }
+  .team .services-me li {
+    font-size: 18px; }
+
+  .services section.body .container h2 {
+    font-size: 30px; } }
 /*# sourceMappingURL=skslaw-md.scss.map */
 @media (min-width: 1200px) {
   header {
