@@ -98,16 +98,17 @@ header {
 
 .james .me-intro {
   background: url(../img/team/james-katz-2.jpg);
-  background-size: cover;
-  background-position: 0% 0%; }
+  background-size: cover; }
 .james .services-me a {
   text-decoration: underline; }
 
 .jason .me-intro {
-  background: url(../img/team/jason-shelly-2.jpg); }
+  background: url(../img/team/jason-shelly-2.jpg);
+  background-size: cover; }
 
 .steven .me-intro {
-  background: url(../img/team/steven-sheppard-2.jpg); }
+  background: url(../img/team/steven-sheppard-2.jpg);
+  background-size: cover; }
 
 .services header {
   height: 400px; }
