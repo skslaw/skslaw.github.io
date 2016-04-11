@@ -121,6 +121,17 @@ header {
 	}
 }
 
+.team {
+	font-size: $team-font-size;
+	.services-me {
+		li {
+			font-size: $team-font-size;
+		}
+		a {
+			text-decoration: underline;
+		}
+	}
+}
 .me-intro p.lead {
 	font-size: 30px;
 }
@@ -128,9 +139,6 @@ header {
 	.me-intro {
 		background: url(../img/team/james-katz-2.jpg);
 		background-size: cover;
-	}
-	.services-me a {
-		text-decoration: underline;
 	}
 }
 .jason {

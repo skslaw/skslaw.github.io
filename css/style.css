@@ -5382,14 +5382,19 @@ header {
       color: #123f6d;
       text-decoration: underline; }
 
+.team {
+  font-size: 18px; }
+  .team .services-me li {
+    font-size: 18px; }
+  .team .services-me a {
+    text-decoration: underline; }
+
 .me-intro p.lead {
   font-size: 30px; }
 
 .james .me-intro {
   background: url(../img/team/james-katz-2.jpg);
   background-size: cover; }
-.james .services-me a {
-  text-decoration: underline; }
 
 .jason .me-intro {
   background: url(../img/team/jason-shelly-2.jpg);
