@@ -5405,6 +5405,18 @@ header {
   background: url(../img/team/steven-sheppard-2.jpg);
   background-size: cover; }
 
+.services.litigation header {
+  background-image: url("../img/divider-2.jpg"); }
+
+.services.municipal-land-use header {
+  background-image: url("../img/divider-3.jpg"); }
+
+.services.estate-succession-planning header {
+  background-image: url("../img/divider-4.jpg"); }
+
+.services.corporate-commercial header {
+  background-image: url("../img/divider-5.jpg"); }
+
 .services header {
   height: 400px; }
 .services section.body {
@@ -5422,7 +5434,7 @@ header {
     font-size: 18px; }
 
   header {
-    height: 700px; }
+    height: 400px; }
 
   .divider {
     height: 600px; }
@@ -5430,17 +5442,19 @@ header {
   .team .services-me li {
     font-size: 18px; }
 
+  .services header {
+    height: 500px; }
   .services section.body .container h2 {
     font-size: 30px; } }
 /*# sourceMappingURL=skslaw-md.scss.map */
 @media (min-width: 1200px) {
   header {
-    height: 700px; }
+    height: 600px; }
 
   .divider {
     height: 600px; }
 
-  .james .me-intro {
-    background-position: 0% 35%; } }
+  .services header {
+    height: 600px; } }
 
 /*# sourceMappingURL=style.css.map */

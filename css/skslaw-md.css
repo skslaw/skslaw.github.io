@@ -7,7 +7,7 @@ Error: Undefined variable: "$font-size-md".
 3:   	font-size: $font-size-md;
 4:   }
 5:   header {
-6:     height: 700px; }
+6:     height: 400px; }
 7: 
 8:   .divider {
 
@@ -76,4 +76,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-size-md\".\A         on line 3 of scss/skslaw-md.scss\A \A 1: @media (min-width: 767px) {\A 2:   body {\A 3:   	font-size: $font-size-md;\A 4:   }\A 5:   header {\A 6:     height: 700px; }\A 7: \A 8:   .divider {"; }
+  content: "Error: Undefined variable: \"$font-size-md\".\A         on line 3 of scss/skslaw-md.scss\A \A 1: @media (min-width: 767px) {\A 2:   body {\A 3:   	font-size: $font-size-md;\A 4:   }\A 5:   header {\A 6:     height: 400px; }\A 7: \A 8:   .divider {"; }
