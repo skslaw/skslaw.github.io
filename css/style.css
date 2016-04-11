@@ -5382,6 +5382,9 @@ header {
       color: #123f6d;
       text-decoration: underline; }
 
+.me-intro p.lead {
+  font-size: 30px; }
+
 .james .me-intro {
   background: url(../img/team/james-katz-2.jpg);
   background-size: cover; }
