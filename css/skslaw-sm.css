@@ -119,17 +119,20 @@ header {
   background: url(../img/team/steven-sheppard-2.jpg);
   background-size: cover; }
 
+.services.corporate-commercial header {
+  background-image: url("../img/divider-3.jpg"); }
+
+.services.estate-succession-planning header {
+  background-image: url("../img/divider-2.jpg"); }
+
 .services.litigation header {
   background-image: url("../img/divider-2.jpg"); }
 
 .services.municipal-land-use header {
   background-image: url("../img/divider-3.jpg"); }
 
-.services.estate-succession-planning header {
-  background-image: url("../img/divider-3.jpg"); }
-
-.services.corporate-commercial header {
-  background-image: url("../img/divider-3.jpg"); }
+.services.real-estate header {
+  background-image: url("../img/divider-1.jpg"); }
 
 .services header {
   height: 400px; }
