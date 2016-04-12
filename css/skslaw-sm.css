@@ -104,8 +104,16 @@ header {
 .team .services-me a {
   text-decoration: underline; }
 
-.me-intro p.lead {
-  font-size: 30px; }
+.team .me-intro .container {
+  font-size: 75%;
+  margin-top: -120px;
+  margin-right: 10px; }
+  .team .me-intro .container h2 {
+    width: 200px;
+    text-align: right;
+    float: right; }
+  .team .me-intro .container p {
+    clear: both; }
 
 .james .me-intro {
   background: url(../img/team/james-katz-2.jpg);
@@ -117,7 +125,9 @@ header {
 
 .steven .me-intro {
   background: url(../img/team/steven-sheppard-2.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-position: -200px 0;
+  height: 0; }
 
 .services.corporate-commercial header {
   background-image: url("../img/divider-3.jpg"); }

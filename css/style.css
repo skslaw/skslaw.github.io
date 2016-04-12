@@ -1199,12 +1199,6 @@ Footer light styles
     margin-top: 0px;
     text-transform: capitalize; }
 
-#footer {
-  background-color: #222222;
-  background-image: url("../img/map-image.png");
-  background-position: center;
-  background-repeat: no-repeat; }
-
 /***********animation delays*****************/
 .delay-1 {
   -webkit-animation-delay: 300ms;
@@ -1290,7 +1284,6 @@ ol.breadcrumb li a {
 
 /***************about me*********************/
 .me-intro {
-  background: url(../img/bg-4.jpg);
   padding: 200px 0; }
 
 .me-intro h2 {

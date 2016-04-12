@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACA,0BAA2B;EAC1B,MAAO;IACN,MAAM,EAAE,KAAK;;EAGd,QAAS;IACR,MAAM,EAAE,KAAK;;EAIX,gBAAO;IACL,MAAM,EAAE,KAAK",
+"mappings": "AACA,0BAA2B;EAC1B,MAAO;IACN,MAAM,EAAE,KAAK;;EAGd,QAAS;IACR,MAAM,EAAE,KAAK;;EAIb,gBAAO;IACN,MAAM,EAAE,KAAK;;EAKd,oEAAU;IACT,mBAAmB,EAAE,GAAG",
 "sources": ["../scss/skslaw-lg.scss"],
 "names": [],
 "file": "skslaw-lg.css"

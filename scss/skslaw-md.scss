@@ -10,12 +10,43 @@
 	.divider {
 		height: 600px; }
 
-
 	.team {
 		.services-me {
 			li {
 				font-size: $font-size-md;
 			}
+		}
+	}
+
+	.team {
+		.me-intro {
+			height: inherit;
+			.container {
+				font-size: 100%;
+				margin-top: 0;
+				h2 {
+					width: 100%;
+				}
+				p {
+					clear: both;
+				}
+			}
+		}
+	}
+
+	.team.jason {
+		.me-intro {
+			background-position: -200px 0;
+		}
+	}
+	.team.james {
+		.me-intro {
+			background-position: -80px 0;
+		}
+	}
+	.team.steven {
+		.me-intro {
+			background-position: -280px 0;
 		}
 	}
 
@@ -34,4 +65,10 @@
 
 }
 
-/*# sourceMappingURL=skslaw-md.scss.map */
+@media (min-width: 991px) {
+	.team.steven {
+		.me-intro {
+			background-position: -170px 0;
+		}
+	}
+}

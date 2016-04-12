@@ -1199,12 +1199,6 @@ Footer light styles
     margin-top: 0px;
     text-transform: capitalize; }
 
-#footer {
-  background-color: #222222;
-  background-image: url("../img/map-image.png");
-  background-position: center;
-  background-repeat: no-repeat; }
-
 /***********animation delays*****************/
 .delay-1 {
   -webkit-animation-delay: 300ms;
@@ -1290,7 +1284,6 @@ ol.breadcrumb li a {
 
 /***************about me*********************/
 .me-intro {
-  background: url(../img/bg-4.jpg);
   padding: 200px 0; }
 
 .me-intro h2 {
@@ -1672,8 +1665,16 @@ header {
 .team .services-me a {
   text-decoration: underline; }
 
-.me-intro p.lead {
-  font-size: 30px; }
+.team .me-intro .container {
+  font-size: 75%;
+  margin-top: -120px;
+  margin-right: 10px; }
+  .team .me-intro .container h2 {
+    width: 200px;
+    text-align: right;
+    float: right; }
+  .team .me-intro .container p {
+    clear: both; }
 
 .james .me-intro {
   background: url(../img/team/james-katz-2.jpg);
@@ -1685,7 +1686,9 @@ header {
 
 .steven .me-intro {
   background: url(../img/team/steven-sheppard-2.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-position: -200px 0;
+  height: 0; }
 
 .services.corporate-commercial header {
   background-image: url("../img/divider-3.jpg"); }
@@ -1727,11 +1730,32 @@ header {
   .team .services-me li {
     font-size: 18px; }
 
+  .team .me-intro {
+    height: inherit; }
+    .team .me-intro .container {
+      font-size: 100%;
+      margin-top: 0; }
+      .team .me-intro .container h2 {
+        width: 100%; }
+      .team .me-intro .container p {
+        clear: both; }
+
+  .team.jason .me-intro {
+    background-position: -200px 0; }
+
+  .team.james .me-intro {
+    background-position: -80px 0; }
+
+  .team.steven .me-intro {
+    background-position: -280px 0; }
+
   .services header {
     height: 500px; }
   .services section.body .container h2 {
     font-size: 30px; } }
-/*# sourceMappingURL=skslaw-md.scss.map */
+@media (min-width: 991px) {
+  .team.steven .me-intro {
+    background-position: -170px 0; } }
 @media (min-width: 1200px) {
   header {
     height: 600px; }
@@ -1740,6 +1764,9 @@ header {
     height: 600px; }
 
   .services header {
-    height: 600px; } }
+    height: 600px; }
+
+  .team.james .me-intro, .team.jason .me-intro, .team.steven .me-intro {
+    background-position: 0 0; } }
 
 /*# sourceMappingURL=skslaw.css.map */

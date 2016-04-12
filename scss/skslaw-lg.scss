@@ -9,9 +9,14 @@
 	}
 
 	.services {
-    header {
-      height: 600px;
-    }
+		header {
+			height: 600px;
+		}
 	}
 
+	.team.james, .team.jason, .team.steven {
+		.me-intro {
+			background-position: 0 0;
+		}
+	}
 }
