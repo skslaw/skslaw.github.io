@@ -1,34 +1,36 @@
+@import "_variables";
+
 @media (min-width: 767px) {
-  body {
-  	font-size: $font-size-md;
-  }
-  header {
-    height: 400px; }
+	body {
+		font-size: $font-size-md;
+	}
+	header {
+		height: 400px; }
 
-  .divider {
-    height: 600px; }
+	.divider {
+		height: 600px; }
 
 
-  .team {
-  	.services-me {
-  		li {
-  			font-size: $font-size-md;
-  		}
-    }
-  }
+	.team {
+		.services-me {
+			li {
+				font-size: $font-size-md;
+			}
+		}
+	}
 
-  .services {
-    header {
-      height: 500px;
-    }
-  	section.body {
-  		.container {
-  			h2 {
-  				font-size: 30px;
-  			}
-  		}
-  	}
-  }
+	.services {
+		header {
+			height: 500px;
+		}
+		section.body {
+			.container {
+				h2 {
+					font-size: 30px;
+				}
+			}
+		}
+	}
 
 }
 
