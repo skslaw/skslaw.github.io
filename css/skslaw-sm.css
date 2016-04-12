@@ -106,8 +106,7 @@ header {
 .team .me-intro {
   height: 0; }
   .team .me-intro .container {
-    font-size: 75%;
-    margin-top: -120px; }
+    font-size: 75%; }
     .team .me-intro .container h2 {
       width: 200px;
       text-align: right;
@@ -122,17 +121,23 @@ header {
 .james .me-intro {
   background: url(../img/team/james-katz-2.jpg);
   background-size: cover;
-  background-position: -110px 0; }
+  background-position: -140px 0; }
+  .james .me-intro .container {
+    margin-top: -40px; }
 
 .jason .me-intro {
   background: url(../img/team/jason-shelly-2.jpg);
   background-size: cover;
-  background-position: -200px 0; }
+  background-position: -240px 0; }
+  .jason .me-intro .container {
+    margin-top: -120px; }
 
 .steven .me-intro {
   background: url(../img/team/steven-sheppard-2.jpg);
   background-size: cover;
-  background-position: -200px 0; }
+  background-position: -210px 0; }
+  .steven .me-intro .container {
+    margin-top: -100px; }
 
 .services.corporate-commercial header {
   background-image: url("../img/divider-3.jpg"); }
