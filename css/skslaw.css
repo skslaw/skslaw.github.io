@@ -1684,7 +1684,7 @@ header {
   background-size: cover;
   background-position: -140px 0; }
   .james .me-intro .container {
-    margin-top: -40px; }
+    margin-top: 0; }
 
 .jason .me-intro {
   background: url(../img/team/jason-shelly-2.jpg);
@@ -1698,7 +1698,7 @@ header {
   background-size: cover;
   background-position: -210px 0; }
   .steven .me-intro .container {
-    margin-top: -100px; }
+    margin-top: -60px; }
 
 .services.corporate-commercial header {
   background-image: url("../img/divider-3.jpg"); }
