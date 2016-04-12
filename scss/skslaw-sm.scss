@@ -102,8 +102,11 @@ header {
 	padding-top: 30px;
 	border-top: 2px solid $skincolor;
 
+	.footer-map {
+		display: none;
+	}
 	.footer-col {
-		padding: 10px;
+		padding: 10px 10px 40px 10px;
 
 		h3 {
 			color: $skincolor;
@@ -116,6 +119,8 @@ header {
 
 		&:hover {
 			background-color: darken($footer-color, 10%);
+		}
+		a:hover {
 			color: $darkcolor;
 		}
 	}
