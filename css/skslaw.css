@@ -1715,6 +1715,9 @@ header {
 .services.real-estate header {
   background-image: url("../img/divider-1.jpg"); }
 
+.services.municipal-land-use section.body .container h2, .services.estate-succession-planning section.body .container h2 {
+  font-size: 18px; }
+
 .services header {
   height: 400px; }
 .services section.body {
@@ -1767,6 +1770,9 @@ header {
   .services header {
     height: 500px; }
   .services section.body .container h2 {
+    font-size: 30px; }
+
+  .services.municipal-land-use section.body .container h2, .services.estate-succession-planning section.body .container h2 {
     font-size: 30px; } }
 @media (min-width: 991px) {
   .team.steven .me-intro {

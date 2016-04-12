@@ -38,6 +38,9 @@
   .services header {
     height: 500px; }
   .services section.body .container h2 {
+    font-size: 30px; }
+
+  .services.municipal-land-use section.body .container h2, .services.estate-succession-planning section.body .container h2 {
     font-size: 30px; } }
 @media (min-width: 991px) {
   .team.steven .me-intro {

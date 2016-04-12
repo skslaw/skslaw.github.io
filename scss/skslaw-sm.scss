@@ -200,6 +200,11 @@ header {
 .services.real-estate header {
 	background-image: url("../img/divider-1.jpg");
 }
+.services.municipal-land-use, .services.estate-succession-planning {
+	section.body .container h2 {
+		font-size: 18px;
+	}
+}
 
 .services {
 	header {
