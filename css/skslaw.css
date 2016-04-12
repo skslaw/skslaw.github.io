@@ -1646,7 +1646,8 @@ header {
 
 #footer {
   background-color: #f3f3f3;
-  padding-top: 30px; }
+  padding-top: 30px;
+  border-top: 2px solid #123f6d; }
   #footer .footer-col {
     padding: 10px; }
     #footer .footer-col h3 {
