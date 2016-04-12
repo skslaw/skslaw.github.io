@@ -2,6 +2,11 @@
   body {
     font-size: 18px; }
 
+  .top-bar-dark .top-bar-socials .si-colored-email {
+    display: none; }
+  .top-bar-dark li {
+    display: block; }
+
   header {
     height: 400px; }
 

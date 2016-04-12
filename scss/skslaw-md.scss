@@ -4,6 +4,16 @@
 	body {
 		font-size: $font-size-md;
 	}
+
+	.top-bar-dark {
+		.top-bar-socials .si-colored-email {
+			display: none;
+		}
+		li {
+			display: block;
+		}
+	}
+
 	header {
 		height: 400px; }
 

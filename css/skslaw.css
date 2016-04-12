@@ -1563,8 +1563,12 @@ body {
   font-size: 16px; }
 
 .top-bar-dark {
+  height: 40px;
   background-color: #123f6d; }
+  .top-bar-dark .top-bar-socials .si-colored-email {
+    display: block; }
   .top-bar-dark li {
+    display: none;
     border: none; }
     .top-bar-dark li a {
       color: #eee; }
@@ -1719,6 +1723,11 @@ header {
 @media (min-width: 767px) {
   body {
     font-size: 18px; }
+
+  .top-bar-dark .top-bar-socials .si-colored-email {
+    display: none; }
+  .top-bar-dark li {
+    display: block; }
 
   header {
     height: 400px; }
