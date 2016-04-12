@@ -131,18 +131,8 @@ header {
 }
 
 .team {
-	.services-me {
-		li {
-			font-size: $font-size-sm;
-		}
-		a {
-			text-decoration: underline;
-		}
-	}
-}
-
-.team {
 	.me-intro {
+		height: 0;
 		.container {
 			font-size: 75%;
 			margin-top: -120px;
@@ -156,17 +146,27 @@ header {
 			}
 		}
 	}
+	.services-me {
+		li {
+			font-size: $font-size-sm;
+		}
+		a {
+			text-decoration: underline;
+		}
+	}
 }
 .james {
 	.me-intro {
 		background: url(../img/team/james-katz-2.jpg);
 		background-size: cover;
+		background-position: -110px 0;
 	}
 }
 .jason {
 	.me-intro {
 		background: url(../img/team/jason-shelly-2.jpg);
 		background-size: cover;
+		background-position: -200px 0;
 	}
 }
 .steven {
@@ -174,7 +174,6 @@ header {
 		background: url(../img/team/steven-sheppard-2.jpg);
 		background-size: cover;
 		background-position: -200px 0;
-		height: 0;
 	}
 }
 

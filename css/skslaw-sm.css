@@ -103,34 +103,36 @@ header {
       color: #123f6d;
       text-decoration: underline; }
 
+.team .me-intro {
+  height: 0; }
+  .team .me-intro .container {
+    font-size: 75%;
+    margin-top: -120px; }
+    .team .me-intro .container h2 {
+      width: 200px;
+      text-align: right;
+      float: right; }
+    .team .me-intro .container p {
+      clear: both; }
 .team .services-me li {
   font-size: 16px; }
 .team .services-me a {
   text-decoration: underline; }
 
-.team .me-intro .container {
-  font-size: 75%;
-  margin-top: -120px; }
-  .team .me-intro .container h2 {
-    width: 200px;
-    text-align: right;
-    float: right; }
-  .team .me-intro .container p {
-    clear: both; }
-
 .james .me-intro {
   background: url(../img/team/james-katz-2.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-position: -110px 0; }
 
 .jason .me-intro {
   background: url(../img/team/jason-shelly-2.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-position: -200px 0; }
 
 .steven .me-intro {
   background: url(../img/team/steven-sheppard-2.jpg);
   background-size: cover;
-  background-position: -200px 0;
-  height: 0; }
+  background-position: -200px 0; }
 
 .services.corporate-commercial header {
   background-image: url("../img/divider-3.jpg"); }
