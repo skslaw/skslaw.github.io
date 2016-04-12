@@ -8,8 +8,11 @@ body {
 .top-bar-dark {
 	height: 40px;
 	background-color: $skincolor;
-	.top-bar-socials .si-colored-email {
-		display: block;
+	.top-bar-socials {
+		margin-left: 5px;
+		.si-colored-email {
+			display: block;
+		}
 	}
 	li {
 		display: none;
