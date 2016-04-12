@@ -202,7 +202,7 @@ header {
 .services.real-estate header {
 	background-image: url("../img/divider-1.jpg");
 }
-.services.municipal-land-use, .services.estate-succession-planning {
+.services.municipal-land-use, .services.estate-succession-planning, .services.real-estate {
 	section.body .container h2 {
 		margin-top: -25px;
 	}
@@ -228,6 +228,13 @@ header {
 	}
 }
 
+@media (min-width: 372px) {
+	.services.real-estate {
+		section.body .container h2 {
+			margin-top: 0;
+		}
+	}
+}
 @media (min-width: 402px) {
 	.services.estate-succession-planning {
 		section.body .container h2 {
