@@ -1,14 +1,2 @@
-@media (min-width: 1200px) {
-  header {
-    height: 600px; }
-
-  .divider {
-    height: 600px; }
-
-  .services header {
-    height: 600px; }
-
-  .team.james .me-intro, .team.jason .me-intro, .team.steven .me-intro {
-    background-position: 0 0; } }
-
+@media (min-width: 1200px){header{height:600px}.divider{height:600px}.services header{height:600px}.team.james .me-intro,.team.jason .me-intro,.team.steven .me-intro{background-position:0 0}}
 /*# sourceMappingURL=skslaw-lg.css.map */
