@@ -155,7 +155,7 @@ header {
   background-image: url("../img/divider-1.jpg"); }
 
 .services.municipal-land-use section.body .container h2, .services.estate-succession-planning section.body .container h2 {
-  font-size: 18px; }
+  margin-top: -25px; }
 
 .services header {
   height: 400px; }
@@ -168,5 +168,12 @@ header {
     .services section.body .container h2 {
       color: #123f6d;
       font-size: 20px; }
+
+@media (min-width: 402px) {
+  .services.estate-succession-planning section.body .container h2 {
+    margin-top: 0; } }
+@media (min-width: 414px) {
+  .services.municipal-land-use section.body .container h2 {
+    margin-top: 0; } }
 
 /*# sourceMappingURL=skslaw-sm.css.map */

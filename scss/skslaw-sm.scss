@@ -202,7 +202,7 @@ header {
 }
 .services.municipal-land-use, .services.estate-succession-planning {
 	section.body .container h2 {
-		font-size: 18px;
+		margin-top: -25px;
 	}
 }
 
@@ -222,6 +222,21 @@ header {
 				color: $skincolor;
 				font-size: 20px;
 			}
+		}
+	}
+}
+
+@media (min-width: 402px) {
+	.services.estate-succession-planning {
+		section.body .container h2 {
+			margin-top: 0;
+		}
+	}
+}
+@media (min-width: 414px) {
+	.services.municipal-land-use {
+		section.body .container h2 {
+			margin-top: 0;
 		}
 	}
 }
