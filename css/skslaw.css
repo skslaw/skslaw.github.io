@@ -1673,7 +1673,8 @@ header {
       text-align: right;
       float: right; }
     .team .me-intro .container p {
-      clear: both; }
+      clear: both;
+      margin-bottom: 15px; }
 .team .services-me li {
   font-size: 16px; }
 .team .services-me a {
