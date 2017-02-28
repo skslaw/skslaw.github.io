@@ -51,4 +51,32 @@ $(function () {
   var path = $(".fr .lang").length ? pathname.replace(/(\/fr\/|\/fr$)/, '/') : "/fr" + pathname;
   var url = window.location.protocol + "//" + window.location.host + path;
   $("a.lang").attr("href", url);
+
+  //close mobile menu when clicked
+  var scrollHandled = false;
+  var collapseMenu = function() {
+    $(window).off("scroll");
+    scrollHandled = false;
+    $(".navbar-collapse").collapse("hide");
+  };
+  $(".navbar-collapse").on("click", "a:not(.dropdown-toggle)", function() { 
+    collapseMenu();
+  });
+  $(".content").on("click", function() { 
+    collapseMenu();
+  });
+
+  $(".navbar-toggle").on("click", function() {
+    if($("div.navbar-collapse.in").length) {
+      collapseMenu();
+    } else {
+      $(window).on("scroll", function() {
+        if (!scrollHandled) {
+          scrollHandled = true;
+          collapseMenu();
+        }
+      });
+
+    }
+  });
 });

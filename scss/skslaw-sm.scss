@@ -32,10 +32,18 @@ body {
 		border: solid 1px #fff;
 	}
 }
-.sticky-wrapper.is-sticky .navbar-brand img {
-	width: 110px;
-	margin-top: 0;
+.sticky-wrapper.is-sticky {
+  .navbar-brand img {
+    width: 110px;
+    margin-top: 0;
+  }
 }
+
+// for some reason the header partially hides when scrolling down
+body.home .sticky-wrapper.is-sticky .navbar-header {
+  margin-top: 25px;
+}
+
 
 header {
 	background-image: url('../img/header-bg.jpg');

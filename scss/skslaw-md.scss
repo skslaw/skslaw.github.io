@@ -13,6 +13,11 @@
 			display: block;
 		}
 	}
+  
+  // for some reason the header partially hides when scrolling down
+  body.home .sticky-wrapper.is-sticky .navbar-header {
+    margin-top: 0;
+  }
 
 	header {
 		height: 400px; }
