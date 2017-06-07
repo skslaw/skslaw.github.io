@@ -181,7 +181,7 @@ header {
 		background-size: cover;
 		background-position: -140px 0;
 		.container {
-			margin-top: 0;
+			margin-top: -50px;
 		}
 	}
 }
@@ -202,6 +202,26 @@ header {
 		background-position: -210px 0;
 		.container {
 			margin-top: -60px;
+		}
+	}
+}
+.david {
+	.me-intro {
+		background: url(../img/team/david-shelly-2.jpg);
+		background-size: cover;
+		background-position: -140px 0;
+		.container {
+			margin-top: -60px;
+		}
+	}
+}
+.guillaume {
+	.me-intro {
+		background: url(../img/team/guillaume-chiasson-2.jpg);
+		background-size: cover;
+		background-position: -160px 0;
+		.container {
+			margin-top: -100px;
 		}
 	}
 }
