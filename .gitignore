@@ -1,7 +1,4 @@
 .sass-cache
-Procfile
-web.js
-package.json
 node_modules
 
 \.vscode/
