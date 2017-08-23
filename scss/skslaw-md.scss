@@ -77,7 +77,16 @@
   }
   .team.guillaume {
     .me-intro {
-      background-position: -70px 0;
+      background-position: -125px 0;
+
+      .container h2 {
+        width: 300px;
+      }
+    }
+  }
+  .team.danesh {
+    .me-intro {
+      background-position: -130px 0;
     }
   }
 
@@ -115,5 +124,12 @@
 		.me-intro {
 			background-position: -170px 0;
 		}
-	}
+  }
+  .team.guillaume {
+    .me-intro {
+      .container h2 {
+        width: 100%;
+      }
+    }
+  }
 }
