@@ -290,6 +290,13 @@ header {
 		}
 	}
 }
+@media (min-width: 266px) {
+	.en.services.employment-law {
+		section.body .container h2 {
+			margin-top: 0;
+		}
+	}
+}
 @media (min-width: 401px) {
 	.en.services.estate-succession-planning {
 		section.body .container h2 {
@@ -313,6 +320,13 @@ header {
 }
 @media (min-width: 511px) {
 	.fr.services.corporate-commercial {
+		section.body .container h2 {
+			margin-top: 0;
+		}
+	}
+}
+@media (min-width: 260px) {
+	.fr.services.employment-law {
 		section.body .container h2 {
 			margin-top: 0;
 		}
