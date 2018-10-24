@@ -255,6 +255,9 @@ header {
 .services.real-estate header {
 	background-image: url("../img/divider-1.jpg");
 }
+.services.personal-injury header {
+	background-image: url("../img/divider-1.jpg");
+}
 
 .services section.body .container h2 {
     margin-top: -25px;  
@@ -318,6 +321,13 @@ header {
 		}
 	}
 }
+@media (min-width: 371px) {
+	.en.services.personal-injury {
+		section.body .container h2 {
+			margin-top: 0;
+		}
+	}
+}
 @media (min-width: 511px) {
 	.fr.services.corporate-commercial {
 		section.body .container h2 {
@@ -348,6 +358,13 @@ header {
 }
 @media (min-width: 604px) {
 	.fr.services.real-estate {
+		section.body .container h2 {
+			margin-top: 0;
+		}
+	}
+}
+@media (min-width: 371px) {
+	.fr.services.personal-injury {
 		section.body .container h2 {
 			margin-top: 0;
 		}
