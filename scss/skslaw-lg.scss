@@ -14,9 +14,14 @@
 		}
 	}
 
-	.team.james, .team.jason, .team.steven, .team.david, .team.guillaume, .team.danesh {
+	.team.james, .team.steven, .team.david, .team.guillaume, .team.danesh {
 		.me-intro {
 			background-position: 0 0;
+		}
+	}
+	.team.jason, .team.guillaume {
+		.me-intro {
+			background-position: 0 -50px;
 		}
 	}
 }
