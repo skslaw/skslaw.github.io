@@ -57,27 +57,27 @@
 
 	.team.jason {
 		.me-intro {
-			background-position: -200px 0;
+			background-position: -100px 0;
 		}
 	}
 	.team.james {
 		.me-intro {
-			background-position: -80px 0;
+			background-position: -100px 0;
 		}
 	}
 	.team.steven {
 		.me-intro {
-			background-position: -280px 0;
+			background-position: -170px 0;
 		}
 	}
   .team.david {
     .me-intro {
-      background-position: -60px 0;
+      background-position: -100px 0;
     }
   }
   .team.guillaume {
     .me-intro {
-      background-position: -125px 0;
+      background-position: -100px 0;
 
       .container h2 {
         width: 300px;
@@ -119,12 +119,15 @@
 
 }
 
-@media (min-width: 991px) {
-	.team.steven {
+@media (min-width: 880px) {
+	.team.steven, .team.guillaume {
 		.me-intro {
-			background-position: -170px 0;
+			background-position: -100px 0;
 		}
-  }
+	}
+}
+
+@media (min-width: 990px) {
   .team.guillaume {
     .me-intro {
       .container h2 {
