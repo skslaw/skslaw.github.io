@@ -277,7 +277,7 @@ header {
     margin-top: 0;  
 }
 
-.services {
+.services, .classaction {
 	header {
 		height: 400px;
 	}
@@ -395,3 +395,22 @@ header {
   }
 }
 
+/////////////////////////////////////
+// class-action registration
+/////////////////////////////////////
+.classaction {
+	section.body .container h2 {
+		margin-top: -20px;
+		line-height: 30px;
+	}
+}
+#register {
+	margin-top: 10px; 
+} 
+@media (min-width: 654px) {
+	.classaction {
+		section.body .container h2 {
+			margin-top: -5px;
+		}
+	}
+}
