@@ -1,87 +1,80 @@
 @import "_variables";
 
 @media (min-width: 767px) {
-	body {
-		font-size: $font-size-md;
-	}
+  body {
+    font-size: $font-size-md;
+  }
 
-	.top-bar-dark {
-		.top-bar-socials .si-colored-email {
-			display: none;
-		}
-		li {
-			display: block;
-		}
-	}
-  
+  .top-bar-dark {
+    .top-bar-socials .si-colored-email {
+      display: none;
+    }
+    li {
+      display: block;
+    }
+  }
+
   // for some reason the header partially hides when scrolling down
   body.home .sticky-wrapper.is-sticky .navbar-header {
     margin-top: 0;
   }
 
-	header {
-		height: 400px; }
+  header {
+    height: 400px;
+  }
 
-	.divider {
-		height: 600px; }
+  .divider {
+    height: 600px;
+  }
 
-	#footer {
-		.footer-map {
-			display: block;
-		}
-	}
+  #footer {
+    .footer-map {
+      display: block;
+    }
+  }
 
-	.team {
-		.services-me {
-			li {
-				font-size: $font-size-md;
-			}
-		}
-	}
+  .team {
+    .services-me {
+      li {
+        font-size: $font-size-md;
+      }
+    }
+  }
 
-	.team {
-		.me-intro {
-			height: inherit;
-			.container {
-				font-size: 100%;
-				margin-top: 0;
-				h2 {
-					width: 100%;
-				}
-				p {
-					clear: both;
-				}
-			}
-		}
-	}
+  .team {
+    .me-intro {
+      height: inherit;
+      .container {
+        font-size: 100%;
+        margin-top: 0;
+        h2 {
+          width: 100%;
+        }
+        p {
+          clear: both;
+        }
+      }
+    }
+  }
 
-	.team.jason {
-		.me-intro {
-			background-position: -100px 0;
-		}
-	}
-	.team.james {
-		.me-intro {
-			background-position: -100px 0;
-		}
-	}
-	.team.steven {
-		.me-intro {
-			background-position: -170px 0;
-		}
-	}
-  .team.david {
+  .team.jason {
     .me-intro {
       background-position: -100px 0;
     }
   }
-  .team.guillaume {
+  .team.james {
     .me-intro {
       background-position: -100px 0;
-
-      .container h2 {
-        width: 300px;
-      }
+    }
+  }
+  .team.steven {
+    .me-intro {
+      background-position: -170px 0;
+    }
+  }
+  .team.david {
+    .me-intro {
+      background-position: -100px 0;
     }
   }
   .team.danesh {
@@ -90,24 +83,25 @@
     }
   }
 
-	.services, .classaction {
-		header {
-			height: 500px;
-		}
-		section.body {
-			.container {
-				h2 {
-					font-size: 30px;
-				}
-			}
-		}
-	}
+  .services,
+  .classaction {
+    header {
+      height: 500px;
+    }
+    section.body {
+      .container {
+        h2 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
 
-	.classaction {
-		section.body .container h2 {
-			margin-top: -25px;
-		}
-	}
+  .classaction {
+    section.body .container h2 {
+      margin-top: -25px;
+    }
+  }
 
   /////////////////////////////////////
   // language links
@@ -122,31 +116,20 @@
       display: none;
     }
   }
-
 }
 
 @media (min-width: 880px) {
-	.team.steven, .team.guillaume {
-		.me-intro {
-			background-position: -100px 0;
-		}
-	}
-}
-
-@media (min-width: 990px) {
-  .team.guillaume {
+  .team.steven {
     .me-intro {
-      .container h2 {
-        width: 100%;
-      }
+      background-position: -100px 0;
     }
-  }	
+  }
 }
 
 @media (min-width: 992px) {
-	.classaction {
-		section.body .container h2 {
-			margin-top: -10px;
-		}
-	}
+  .classaction {
+    section.body .container h2 {
+      margin-top: -10px;
+    }
+  }
 }

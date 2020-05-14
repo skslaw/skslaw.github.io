@@ -2,35 +2,35 @@
 @import "_mixins";
 
 body {
-	font-size: $font-size-sm;
+  font-size: $font-size-sm;
 }
 
 .top-bar-dark {
-	height: 40px;
-	background-color: $skincolor;
-	.top-bar-socials {
-		margin-left: 5px;
-		.si-colored-email {
-			display: block;
-		}
-	}
-	li {
-		display: none;
-		border: none;
-		a {
-			color: #eee;
-		}
-	}
+  height: 40px;
+  background-color: $skincolor;
+  .top-bar-socials {
+    margin-left: 5px;
+    .si-colored-email {
+      display: block;
+    }
+  }
+  li {
+    display: none;
+    border: none;
+    a {
+      color: #eee;
+    }
+  }
 }
 
 .navbar-brand {
-	padding-top: 0;
-	margin-top: -5px;
-	img {
-		width: 170px;
-		margin-top: -35px;
-		border: solid 1px #fff;
-	}
+  padding-top: 0;
+  margin-top: -5px;
+  img {
+    width: 170px;
+    margin-top: -35px;
+    border: solid 1px #fff;
+  }
 }
 .sticky-wrapper.is-sticky {
   .navbar-brand img {
@@ -44,345 +44,344 @@ body.home .sticky-wrapper.is-sticky .navbar-header {
   margin-top: 25px;
 }
 
-
 header {
-	background-image: url('../img/header-bg.jpg');
-	background-size: cover;
-	height: 300px;
+  background-image: url("../img/header-bg.jpg");
+  background-size: cover;
+  height: 300px;
 }
 
 .our-team-v-2 {
-	background-color: white;
-	.person-v2 img {
-		width: 350px;
-	}
+  background-color: white;
+  .person-v2 img {
+    width: 350px;
+  }
 }
 
 .divider {
-	background: url(../img/divider-1.jpg);
-	background-size: cover;
-	height: 300px;
+  background: url(../img/divider-1.jpg);
+  background-size: cover;
+  height: 300px;
 }
 
 #whatwedo .center-heading {
-	margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .medical-service-box {
-	text-align:center;
-	border: 1px solid $skincolor;
-	margin: 0 10px 40px 10px;
-	.btn-theme-bg{
-		position: relative;
-		margin-bottom: -20px;
-	}
-	p{
-		font-size: 13px;
-		padding: 15px;
-		margin: 0px;
-	}
-	h4{
-		margin: 0px;
-		padding: 15px;
-		padding-bottom: 0px;
-		text-transform: uppercase;
-		font-size: 20px;
-	}
-	i{
-		width: 60px;
-		height: 60px;
-		line-height: 60px;
-		text-align: center;
-		display: inline-block;
-		@include border-radius (50%);
-		color:#fff;
-		background-color: $skincolor;
-		font-size: 30px;
-		margin-top: -60px;
-		position: relative;
-		@include box-shadow (2px 2px 3px rgba(0,0,0,0.2));
-	}
+  text-align: center;
+  border: 1px solid $skincolor;
+  margin: 0 10px 40px 10px;
+  .btn-theme-bg {
+    position: relative;
+    margin-bottom: -20px;
+  }
+  p {
+    font-size: 13px;
+    padding: 15px;
+    margin: 0px;
+  }
+  h4 {
+    margin: 0px;
+    padding: 15px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    @include border-radius(50%);
+    color: #fff;
+    background-color: $skincolor;
+    font-size: 30px;
+    margin-top: -60px;
+    position: relative;
+    @include box-shadow(2px 2px 3px rgba(0, 0, 0, 0.2));
+  }
 }
 .medical-service-box:hover {
-	color: #fff;
-	background-color: lighten($skincolor, 70%);
+  color: #fff;
+  background-color: lighten($skincolor, 70%);
 }
 
 #footer {
-	background-color: $footer-color;
-	padding-top: 30px;
-	border-top: 2px solid $skincolor;
+  background-color: $footer-color;
+  padding-top: 30px;
+  border-top: 2px solid $skincolor;
 
-	.footer-map {
-		display: none;
-	}
-	.footer-col {
-		padding: 10px 10px 40px 10px;
+  .footer-map {
+    display: none;
+  }
+  .footer-col {
+    padding: 10px 10px 40px 10px;
 
-		h3 {
-			color: $skincolor;
-			font-weight: normal;
-		}
+    h3 {
+      color: $skincolor;
+      font-weight: normal;
+    }
 
-		p {
-			color: inherit;
-		}
+    p {
+      color: inherit;
+    }
 
-		&:hover {
-			background-color: darken($footer-color, 10%);
-		}
-		a:hover {
-			color: $darkcolor;
-		}
-	}
+    &:hover {
+      background-color: darken($footer-color, 10%);
+    }
+    a:hover {
+      color: $darkcolor;
+    }
+  }
 
-	.footer-btm {
-		background-color: $footer-color;
+  .footer-btm {
+    background-color: $footer-color;
 
-		a:hover {
-			background-color: $footer-color;
-			color: $skincolor;
-			text-decoration: underline;
-		}
-	}
+    a:hover {
+      background-color: $footer-color;
+      color: $skincolor;
+      text-decoration: underline;
+    }
+  }
 }
 
 .team {
-	.me-intro {
-		height: 0;
-		.container {
-			font-size: 75%;
-			h2 {
-				width: 200px;
-				text-align: right;
-				float: right;
-			}
-			p {
-				clear: both;
-				margin-bottom: 15px;
-			}
-			.pull-right {
-				margin-right: 5px;
-			}
-		}
-	}
-	.services-me {
-		li {
-			font-size: $font-size-sm;
-		}
-		a {
-			text-decoration: underline;
-		}
-	}
+  .me-intro {
+    height: 0;
+    .container {
+      font-size: 75%;
+      h2 {
+        width: 200px;
+        text-align: right;
+        float: right;
+      }
+      p {
+        clear: both;
+        margin-bottom: 15px;
+      }
+      .pull-right {
+        margin-right: 5px;
+      }
+    }
+  }
+  .services-me {
+    li {
+      font-size: $font-size-sm;
+    }
+    a {
+      text-decoration: underline;
+    }
+  }
 }
 .james {
-	.me-intro {
-		background: url(../img/team/james-katz-2.jpg);
-		background-size: cover;
-		background-position: -80px 0;
-		.container {
-			margin-top: -50px;
-		}
-	}
+  .me-intro {
+    background: url(../img/team/james-katz-2.jpg);
+    background-size: cover;
+    background-position: -80px 0;
+    .container {
+      margin-top: -50px;
+    }
+  }
 }
 .jason {
-	.me-intro {
-		background: url(../img/team/jason-shelly-2.jpg);
-		background-size: cover;
-		background-position: -150px 0;
-		box-shadow: rgba(0,0,0,0.11765) 0px 1px 3px;
-		.container {
-			margin-top: -120px;
-		}
-	}
+  .me-intro {
+    background: url(../img/team/jason-shelly-2.jpg);
+    background-size: cover;
+    background-position: -150px 0;
+    box-shadow: rgba(0, 0, 0, 0.11765) 0px 1px 3px;
+    .container {
+      margin-top: -120px;
+    }
+  }
 }
 .steven {
-	.me-intro {
-		background: url(../img/team/steven-sheppard-2.jpg);
-		background-size: cover;
-		background-position: -150px 0;
-		.container {
-			margin-top: -90px;
-		}
-	}
+  .me-intro {
+    background: url(../img/team/steven-sheppard-2.jpg);
+    background-size: cover;
+    background-position: -150px 0;
+    .container {
+      margin-top: -90px;
+    }
+  }
 }
 .david {
-	.me-intro {
-		background: url(../img/team/david-shelly-2.jpg);
-		background-size: cover;
-		background-position: -100px 0;
-		.container {
-			margin-top: -130px;
-		}
-	}
+  .me-intro {
+    background: url(../img/team/david-shelly-2.jpg);
+    background-size: cover;
+    background-position: -100px 0;
+    .container {
+      margin-top: -130px;
+    }
+  }
 }
 .danesh {
-	.me-intro {
-		background: url(../img/team/danesh-rana-2.jpg);
-		background-size: cover;
-		background-position: -100px 0;
-		.container {
-			margin-top: -150px;
-		}
-	}
-}
-.guillaume {
-	.me-intro {
-		background: url(../img/team/guillaume-chiasson-2.jpg);
-		background-size: cover;
-		background-position: -120px 0;
-		.container {
-			margin-top: -140px;
-		}
-	}
+  .me-intro {
+    background: url(../img/team/danesh-rana-2.jpg);
+    background-size: cover;
+    background-position: -100px 0;
+    .container {
+      margin-top: -150px;
+    }
+  }
 }
 .shelbi {
-	.me-intro {
-		background: url(../img/team/shelbi-dippold-2.jpg);
-		background-size: cover;
-		background-position: -70px 0;
-		.container {
-			margin-top: -100px;
-		}
-	}
+  .me-intro {
+    background: url(../img/team/shelbi-dippold-2.jpg);
+    background-size: cover;
+    background-position: -70px 0;
+    .container {
+      margin-top: -100px;
+    }
+  }
 }
-
+.kodi {
+  .me-intro {
+    background: url(../img/team/kodi-edmunds-2.jpg);
+    background-size: cover;
+    background-position: -50px 0;
+    .container {
+      margin-top: -100px;
+    }
+  }
+}
 
 .services.corporate-commercial header {
-	background-image: url("../img/divider-3.jpg");
+  background-image: url("../img/divider-3.jpg");
 }
 .services.employment-law header {
-	background-image: url("../img/divider-1.jpg");
+  background-image: url("../img/divider-1.jpg");
 }
 .services.estate-succession-planning header {
-	background-image: url("../img/divider-2.jpg");
+  background-image: url("../img/divider-2.jpg");
 }
 .services.litigation header {
-	background-image: url("../img/divider-2.jpg");
+  background-image: url("../img/divider-2.jpg");
 }
 .services.municipal-land-use header {
-	background-image: url("../img/divider-3.jpg");
+  background-image: url("../img/divider-3.jpg");
 }
 .services.real-estate header {
-	background-image: url("../img/divider-1.jpg");
+  background-image: url("../img/divider-1.jpg");
 }
 .services.personal-injury header {
-	background-image: url("../img/divider-1.jpg");
+  background-image: url("../img/divider-1.jpg");
 }
 
 .services section.body .container h2 {
-    margin-top: -25px;  
+  margin-top: -25px;
 }
 .litigation.services section.body .container h2 {
-    margin-top: 0;  
+  margin-top: 0;
 }
 .litigation p.classaction a {
-	color: $skincolor;
+  color: $skincolor;
 }
 
-.services, .classaction {
-	header {
-		height: 400px;
-	}
-	section.body {
-		margin-top: -100px;
+.services,
+.classaction {
+  header {
+    height: 400px;
+  }
+  section.body {
+    margin-top: -100px;
 
-		.container {
-			background-color: #fff;
-			background-color: rgba(255,255,255,0.8);
-			padding: 35px 40px;
+    .container {
+      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 35px 40px;
 
-			h2 {
-				color: $skincolor;
-				font-size: 20px;
-			}
-		}
-	}
+      h2 {
+        color: $skincolor;
+        font-size: 20px;
+      }
+    }
+  }
 }
 
 @media (min-width: 358px) {
-	.en.services.corporate-commercial {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .en.services.corporate-commercial {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 @media (min-width: 266px) {
-	.en.services.employment-law {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .en.services.employment-law {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 @media (min-width: 401px) {
-	.en.services.estate-succession-planning {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .en.services.estate-succession-planning {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 @media (min-width: 414px) {
-	.en.services.municipal-land-use {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .en.services.municipal-land-use {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 @media (min-width: 371px) {
-	.en.services.real-estate {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .en.services.real-estate {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 @media (min-width: 371px) {
-	.en.services.personal-injury {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .en.services.personal-injury {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 @media (min-width: 511px) {
-	.fr.services.corporate-commercial {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .fr.services.corporate-commercial {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 @media (min-width: 260px) {
-	.fr.services.employment-law {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .fr.services.employment-law {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 @media (min-width: 652px) {
-	.fr.services.estate-succession-planning {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .fr.services.estate-succession-planning {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 @media (min-width: 533px) {
-	.fr.services.municipal-land-use {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .fr.services.municipal-land-use {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 @media (min-width: 604px) {
-	.fr.services.real-estate {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .fr.services.real-estate {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 @media (min-width: 371px) {
-	.fr.services.personal-injury {
-		section.body .container h2 {
-			margin-top: 0;
-		}
-	}
+  .fr.services.personal-injury {
+    section.body .container h2 {
+      margin-top: 0;
+    }
+  }
 }
 
 /////////////////////////////////////
@@ -402,18 +401,18 @@ header {
 // class-action registration
 /////////////////////////////////////
 .classaction {
-	section.body .container h2 {
-		margin-top: -20px;
-		line-height: 30px;
-	}
+  section.body .container h2 {
+    margin-top: -20px;
+    line-height: 30px;
+  }
 }
 #register {
-	margin-top: 10px; 
-} 
+  margin-top: 10px;
+}
 @media (min-width: 654px) {
-	.classaction {
-		section.body .container h2 {
-			margin-top: -5px;
-		}
-	}
+  .classaction {
+    section.body .container h2 {
+      margin-top: -5px;
+    }
+  }
 }
