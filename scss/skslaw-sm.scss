@@ -235,6 +235,16 @@ header {
     }
   }
 }
+.kodi {
+  .me-intro {
+    background: url(../img/team/kodi-edmunds-2.jpg);
+    background-size: cover;
+    background-position: -50px 0;
+    .container {
+      margin-top: -100px;
+    }
+  }
+}
 
 .services.corporate-commercial header {
   background-image: url("../img/divider-3.jpg");
