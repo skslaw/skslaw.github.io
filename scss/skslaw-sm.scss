@@ -205,16 +205,6 @@ header {
     }
   }
 }
-.danesh {
-  .me-intro {
-    background: url(../img/team/danesh-rana-2.jpg);
-    background-size: cover;
-    background-position: -100px 0;
-    .container {
-      margin-top: -150px;
-    }
-  }
-}
 .shelbi {
   .me-intro {
     background: url(../img/team/shelbi-dippold-2.jpg);
@@ -239,9 +229,6 @@ header {
 .services.corporate-commercial header {
   background-image: url("../img/divider-3.jpg");
 }
-.services.employment-law header {
-  background-image: url("../img/divider-1.jpg");
-}
 .services.estate-succession-planning header {
   background-image: url("../img/divider-2.jpg");
 }
@@ -252,9 +239,6 @@ header {
   background-image: url("../img/divider-3.jpg");
 }
 .services.real-estate header {
-  background-image: url("../img/divider-1.jpg");
-}
-.services.personal-injury header {
   background-image: url("../img/divider-1.jpg");
 }
 
@@ -296,13 +280,6 @@ header {
     }
   }
 }
-@media (min-width: 266px) {
-  .en.services.employment-law {
-    section.body .container h2 {
-      margin-top: 0;
-    }
-  }
-}
 @media (min-width: 401px) {
   .en.services.estate-succession-planning {
     section.body .container h2 {
@@ -324,22 +301,8 @@ header {
     }
   }
 }
-@media (min-width: 371px) {
-  .en.services.personal-injury {
-    section.body .container h2 {
-      margin-top: 0;
-    }
-  }
-}
 @media (min-width: 511px) {
   .fr.services.corporate-commercial {
-    section.body .container h2 {
-      margin-top: 0;
-    }
-  }
-}
-@media (min-width: 260px) {
-  .fr.services.employment-law {
     section.body .container h2 {
       margin-top: 0;
     }
@@ -361,13 +324,6 @@ header {
 }
 @media (min-width: 604px) {
   .fr.services.real-estate {
-    section.body .container h2 {
-      margin-top: 0;
-    }
-  }
-}
-@media (min-width: 371px) {
-  .fr.services.personal-injury {
     section.body .container h2 {
       margin-top: 0;
     }
