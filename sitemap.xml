@@ -33,11 +33,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://skslaw.ca/team/danesh-rana.html</loc>
-  <lastmod>2019-01-24T21:40:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>http://skslaw.ca/team/shelbi-dippold.html</loc>
   <lastmod>2019-01-24T21:40:25+00:00</lastmod>
   <priority>0.80</priority>
@@ -49,11 +44,6 @@
 </url>
 <url>
   <loc>http://skslaw.ca/services/corporate-commercial.html</loc>
-  <lastmod>2019-01-24T21:40:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://skslaw.ca/services/employment-law.html</loc>
   <lastmod>2019-01-24T21:40:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -74,11 +64,6 @@
 </url>
 <url>
   <loc>http://skslaw.ca/services/real-estate-development.html</loc>
-  <lastmod>2019-01-24T21:40:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://skslaw.ca/services/personal-injury.html</loc>
   <lastmod>2019-01-24T21:40:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -113,11 +98,6 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://skslaw.ca/fr/team/danesh-rana.html</loc>
-  <lastmod>2019-01-24T21:40:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://skslaw.ca/fr/team/shelbi-dippold.html</loc>
   <lastmod>2019-01-24T21:40:25+00:00</lastmod>
   <priority>0.64</priority>
@@ -129,11 +109,6 @@
 </url>
 <url>
   <loc>http://skslaw.ca/fr/services/corporate-commercial.html</loc>
-  <lastmod>2019-01-24T21:40:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://skslaw.ca/fr/services/employment-law.html</loc>
   <lastmod>2019-01-24T21:40:25+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -154,11 +129,6 @@
 </url>
 <url>
   <loc>http://skslaw.ca/fr/services/real-estate-development.html</loc>
-  <lastmod>2019-01-24T21:40:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://skslaw.ca/fr/services/personal-injury.html</loc>
   <lastmod>2019-01-24T21:40:25+00:00</lastmod>
   <priority>0.64</priority>
 </url>
