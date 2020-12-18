@@ -72,6 +72,15 @@
       background-position: -100px 0;
     }
   }
+  .team.nathan {
+    .me-intro {
+      .container {
+        h2 {
+          width: 300px;
+        }
+      }
+    }
+  }
 
   .services,
   .classaction {
@@ -112,6 +121,16 @@
   .team.steven {
     .me-intro {
       background-position: -100px 0;
+    }
+  }
+  .team.nathan {
+    .me-intro {
+      background-position: -50px 0;
+      .container {
+        h2 {
+          width: 100%;
+        }
+      }
     }
   }
 }
