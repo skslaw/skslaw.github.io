@@ -43,6 +43,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>http://skslaw.ca/team/nathan-serratore.html</loc>
+  <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://skslaw.ca/services/corporate-commercial.html</loc>
   <lastmod>2019-01-24T21:40:25+00:00</lastmod>
   <priority>0.80</priority>
@@ -106,6 +111,11 @@
   <loc>http://skslaw.ca/fr/team/kodi-edmunds.html</loc>
   <lastmod>2020-05-20T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://skslaw.ca/fr/team/nathan-serratore.html</loc>
+  <lastmod>2020-12-18T00:00:00+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://skslaw.ca/fr/services/corporate-commercial.html</loc>
