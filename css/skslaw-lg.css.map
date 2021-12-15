@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA,0BAA2B,CACzB,MAAO,CACL,MAAM,CAAE,KAAK,CAGf,QAAS,CACP,MAAM,CAAE,KAAK,CAIb,gBAAO,CACL,MAAM,CAAE,KAAK,CAMf,4CAAU,CACR,mBAAmB,CAAE,GAAG,CAK1B,4CAAU,CACR,mBAAmB,CAAE,OAAO,CAI9B,sBAAU,CACR,mBAAmB,CAAE,OAAO",
-"sources": ["../scss/skslaw-lg.scss"],
-"names": [],
-"file": "skslaw-lg.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/skslaw-lg.scss"],"names":[],"mappings":"AAAA,0BACE,OACE,aAGF,SACE,aAIA,iBACE,aAMF,6CACE,wBAKF,6CACE,4BAIF,wBACE,4BAEE,sCACE","file":"skslaw-lg.css"}
