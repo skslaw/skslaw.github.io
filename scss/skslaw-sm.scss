@@ -110,6 +110,7 @@ header {
 #footer {
   background-color: $footer-color;
   padding-top: 30px;
+  padding-bottom: 20px; 
   border-top: 2px solid $skincolor;
 
   .footer-map {
@@ -215,7 +216,16 @@ header {
     }
   }
 }
-
+.sadaf {
+  .me-intro {
+    background: url(../img/team/sadaf-wasim-2.jpg);
+    background-size: cover;
+    background-position: -55px 0;
+    .container {
+      margin-top: -100px;
+    }
+  }
+}
 .services.corporate-commercial header {
   background-image: url("../img/divider-3.jpg");
 }
